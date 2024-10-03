@@ -1,0 +1,174 @@
+Emmet abbrivation:
+
+-->element nested we use ”>”
+Ex:p>img
+-->article+section by using this we can create side by side
+<article> </article>
+<section></section>
+-->{p}-><p> this is text</p>
+
+-->if we want to create id we use “#”
+Like p#---> <p id=”id1”></p>
+-->by using dot(.) we can create class
+Like article   .class
+
+--------DIV TAG-----------: is a container tag
+div tag is used for division that means we use for different sections
+--- it also used for wrapping of different data in the webpage
+The <div> tag defines a division or a section in an HTML document.
+
+The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
+
+The <div> tag is easily styled by using the class or id attribute.
+
+Any sort of content can be put inside the <div> tag! 
+> a div tag consists of different tags
+Like
+<article>
+<section>
+<ul>
+<li>
+etc;
+
+there are 2 types of elements
+1. Block element : block element comes in nextline  and written in left to right
+2. inline element inline element doesnot comes in nextline it based on the content
+** if we want to write div tag use (.container)
+
+div tag is a block level element
+that means entire page will get the properties for ex: background color (the entire line will get)
+-- it comes in nextline
+
+span tag is a inlline element
+ that means only that line will get the changes
+ --it comes in same line
+
+ <p> tag is a block level element
+
+
+
+********LECTURE-7********
+TABLES
+
+table
+<thead>--heading of table
+<tbody>--actual content
+<tfoot>-- table summary like(total)
+<tr>--table row
+<td>--table data
+<th>--to create heading 
+
+<!--if we want to expand the row or column we use rowspan or col span-->
+<rowspan>
+<colspan>
+
+
+********form********
+<form>tag --used to create forms in HTML
+
+<input> tag - used to create input type of HTML
+            - it has many forms
+             ->radio buttons,text,check boxes etc
+
+<label> tag - used to create label and  screen reading
+ 
+
+ IMPORTANT: input tag can also be use by id like <input type  id
+            label tag can also be used by for like <label for 
+            the id should be equal to for 
+
+//placeholder : the faded text placed in the box (enter your name here)/(abc@gmail.com)
+
+
+FORM ELEMENTS:
+
+1 input
+2 label
+3 select ->drop down
+4 option
+5 button 
+6 text area --- we can used for taking multiline input from the user
+7 field set --- grouping of elements
+8 legend --- used for caption in fieldset 
+
+**********
+HTML Input Types
+Here are the different input types you can use in HTML:
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+Tip: The default value of the type attribute is "text".
+
+
+The <input> element can have many attributes depending on the type of input, the desired behavior,
+ and styling. Here's a list of commonly used attributes for the <input> element:
+
+1. Global Attributes (Applicable to all input types)
+type: Specifies the type of the input (e.g., text, radio, checkbox, etc.).
+id: Uniquely identifies the input field.
+name: Defines the name of the input field, especially useful in form submissions.
+value: Specifies the default value or pre-filled value of the input.
+class: Assigns one or more CSS classes for styling.
+style: Applies inline CSS styles to the input.
+disabled: Disables the input field, making it unselectable.
+readonly: Makes the input field read-only (can't be modified but can be copied).
+placeholder: Provides a hint to the user about what to enter in the input field.
+required: Specifies that the input is mandatory before form submission.
+autocomplete: Controls whether the browser should offer autocompletion options (e.g., on, off).
+autofocus: Automatically sets focus to the input field when the page loads.
+pattern: Defines a regex pattern that the input must match.
+form: Associates the input with a form element by its id, useful for forms outside the input's parent form.
+2. Type-Specific Attributes (Vary based on the input type)
+For type="text" and type="password":
+maxlength: Specifies the maximum number of characters allowed.
+minlength: Specifies the minimum number of characters required.
+size: Specifies the width of the input in characters.
+pattern: Regular expression the input must match.
+For type="number":
+min: Defines the minimum value.
+max: Defines the maximum value.
+step: Specifies the increment step for numeric values.
+For type="radio" and type="checkbox":
+checked: Specifies that the radio/checkbox should be checked by default.
+For type="file":
+accept: Specifies the types of files allowed (e.g., image/*, application/pdf).
+multiple: Allows multiple file selection.
+For type="date", type="time", type="datetime-local":
+min: Specifies the earliest date/time allowed.
+max: Specifies the latest date/time allowed.
+For type="email":
+multiple: Allows multiple email addresses to be entered.
+pattern: Defines a regex pattern that the email must match.
+For type="range":
+min: Specifies the minimum value.
+max: Specifies the maximum value.
+step: Specifies the increment value for the range slider.
+For type="submit" and type="button":
+formaction: Defines the URL to which the form will be submitted.
+formenctype: Specifies the encoding type for form submission.
+formmethod: Specifies the HTTP method for form submission (POST, GET).
+formtarget: Specifies where to display the response (e.g., _blank, _self).
+For type="image":
+src: URL of the image.
+alt: Alternate text for the image.
+
