@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Example</title>
+    <style>
+        /* Just for styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1,
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        section {
+            margin-top: 30px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>PRODUCTS</h1>
+
+    <!-- Links to bookmarks -->
+    <a href="#electronics">electronics</a><br>
+    <a href="#clothing">clothing</a><br>
+    <a href="#home">home</a><br><br>
+
+    <!-- Content where bookmarks will scroll to -->
+    <section id="electronics">
+        <h2>Laptop</h2>
+        <h4>Description:</h4>
+        <ul>
+            <li>Highest performance laptop</li>
+            <li>Best Processor</li>
+        </ul>
+        <img src="laptop.jpg" alt="laptop image">
+        <p>Price: 500000</p>
+
+        <details>
+            <summary>View details about this product</summary>
+            <p>RAM: 8GB</p>
+        </details>
+    </section>
+
+    <section id="section2">
+        <h2>Section 2: Details</h2>
+        <p>This is the content for Section 2. It provides more detailed information about the topic.</p>
+    </section>
+
+    <section id="section3">
+        <h2>Section 3: Conclusion</h2>
+        <p>This is the content for Section 3. It wraps up the discussion and summarizes the key points.</p>
+    </section>
+
+</body>
+
+</html>

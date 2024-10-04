@@ -172,3 +172,16 @@ For type="image":
 src: URL of the image.
 alt: Alternate text for the image.
 
+Lazy loading is a technique in HTML that delays loading resources until they are needed, such as when a user interacts with the page: 
+How it works
+Lazy loading identifies resources as non-critical and only loads them when needed. For example, if a user needs to scroll to see an image, the browser will display a placeholder and only load the full image when the user reaches it. 
+Benefits
+Lazy loading can improve performance and save system resources by: 
+Reducing page load times 
+Conserving bandwidth 
+Conserving server and client resources 
+
+
+**********BOOKMARK******
+if we want to create a bookmark we have to give id to the section tag and 
+and that id is give same to the anchor tag with "#" ex: <a href="#bookmark"
